@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=Lobster&family=Open+Sans&family=PT+Serif&family=Roboto&display=swap');
+body 
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #e8eded;
+}
+
+.container 
+{
+	margin: -20px 5px;
+}
+
+.container .header-section {
+    margin-top: 18px;
+    width: 100%;
+    border-bottom: 1px solid #c5bdbd;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.container .header-section .logo img {
+    width: 200px;
+    height: 66px;
+    float: left;
+}
+
+.container .header-section ul {
+    margin-top: 22px;
+    margin-right: 40px;
+    overflow: hidden;
+    float: right;
+}
+
+.container .header-section ul li 
+{
+    margin: 0 10px;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    color: #546e7a;
+    list-style-type: none;
+    float: left;
+    overflow: hidden;
+}
+
+.container .header-section ul li:hover 
+{
+	color: #000;
+}
+
+/*moon_and_sun_icon desing start here*/
+.container .header-section ul .moon_and_sun_icon,
+.container .header-section ul .sun_and_moon_icon
+{
+    margin-top: 0px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/*middle container start here */
+.middle-container .left-side-bar {
+    width: 40%;
+    height: 530px;
+    margin: 0 138px 0 0;
+    /*border: 1px solid #efefef;*/
+    float: left;
+}
+
+.middle-container .left-side-bar h2 {
+    margin: 84px 0 -69px 116px;
+    font-size: 35px;
+    font-family: 'Serif', serif;
+}
+
+.middle-container .left-side-bar h2 span
+{
+	color: #ec6e22;
+}
+.middle-container .left-side-bar p 
+{
+	 margin: 84px 0 0 116px;
+	 font-size: 16px;
+	 font-family: 'Serif', serif;
+}
+
+.middle-container .left-side-bar button {
+    margin: 93px 0px 8px 117px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.middle-container .right-side-bar
+{
+	width: 50%;
+	height: 530px;
+	/*border: 1px solid #efefef;*/
+	overflow: hidden;
+}
+
+.middle-container .right-side-bar img 
+{
+    width: 763px;
+    height: 530px;
+}
+/*footer section start here*/
+.footer-section {
+    margin-top: 54px;
+    /*border: 1px solid #efefef;*/
+    padding: 10px;
+}
+
+.footer-section i {
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+/*subscribe button start here */
+
+
